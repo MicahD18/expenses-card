@@ -1,0 +1,71 @@
+.card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 50%;
+  margin-top: 25vh;
+}
+
+.balance__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(222, 124, 100);
+  color: white;
+  padding: 25px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.balance__section {
+  text-align: left;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer p {
+    color: gray;
+    font-weight: 300;
+}
+
+.expense__card {
+  background-color: white;
+  padding: 25px;
+  width: 50vw;
+  margin-top: 3vh;
+  border-radius: 15px;
+}
+
+.expense__card h3 {
+  text-align: left;
+}
+
+.last__month h4 {
+  text-align: right;
+  margin-top: 45px;
+}
+
+.last__month p {
+    margin-top: -15px;
+}
+
+.monthly p {
+    margin-top: 30px;
+}
+
+.monthly h1 {
+    margin-top: -10px;
+}
