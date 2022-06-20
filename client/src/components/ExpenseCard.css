@@ -69,3 +69,9 @@
 .monthly h1 {
     margin-top: -10px;
 }
+
+.week__expense {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
